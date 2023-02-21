@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.6S;
+    color:#231f52;
+    background-color: #fdfbfd;
+}
+
+header {
+    background-color: #231f52;
+    color: #fff;
+    padding: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+section.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+    padding: 1rem;
+}
+
+section.intro h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+section.intro h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+section.intro p {
+    margin-bottom: 1rem;
+}
+.picintro{
+    max-width: 300px;
+}
+
+/* section.intro .btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1.5rem;
+    text-decoration: none;
+    border-radius: 3px;
+} */
+
+section.featured-projects {
+    padding: 2rem;
+}
+
+section.featured-projects h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.project {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 1rem;
+    text-align: center;
+}
+
+.project img {
+    max-width: 100%;
+    border-radius: 3px;
+}
+
+.project h3 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.project p {
+    margin-bottom: 1rem;
+}
+
+/* section.about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+section.about-me img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 1rem;
+}
+
+section.about-me p {
+    margin-bottom: 2rem;
+} */
+
+/* section.about-me .btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1.5rem;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-top: 1rem;
+} */
+/* 
+section.contact {
+    padding: 2rem;
+}
+
+section.contact h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+section.contact form {
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section.contact label {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+section.contact input,
+section.contact textarea {
+    padding: 0.5rem;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+section.contact textarea {
+    height: 10rem;
+}
+
+section.contact .btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1.5rem;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-top: 1rem;
+ } */
+
+
+footer {
+    background-color: #231f52;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem 2rem;
+    }
+
+    nav ul {
+        display: flex;
+        align-items: center;
+    }
+
+    nav li {
+        margin-right: 2rem;
+    }
+
+    section.intro {
+        min-height: 80vh;
+    }
+
+    section.featured-projects {
+        padding: 4rem;
+    }
+
+    .project-container {
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    }
+
+    /* section.about-me {
+        min-height: 80vh;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    section.about-me img {
+        margin-right: 2rem;
+        margin-bottom: 0;
+    }
+
+    section.about-me p {
+        max-width: 500px;
+        margin-bottom: 0;
+    }
+
+    section.contact {
+        min-height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    section.contact form {
+        max-width: 500px;
+    }
+
+    section.contact label {
+        font-size: 1.2rem;
+    }
+
+    section.contact input,
+    section.contact textarea {
+        font-size: 1.2rem;
+    }*/
+} 
